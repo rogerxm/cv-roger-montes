@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV | Roger Montes Ortega</title>
+    <link rel="shortcut icon" href="img/icons/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <header class="hero">
+        <nav class="nav container">
+            <div class="nav__logo">
+                <h2 class="nav__title">Roger Montes</h2>
+            </div>
+
+            <ul class="nav__link nav__link--menu">
+                <li class="nav__items">
+                    <a href="#about" class="nav__links">Sobre mí</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#experiencia" class="nav__links">Experiencia laboral</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#escuela" class="nav__links">Datos académicos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#conocimientos" class="nav__links">Conocimientos</a>
+                </li>
+                <li class="nav__items">
+                    <a href="#contacto" class="nav__links">Contacto</a>
+                </li>
+
+                <img class="nav__close" src="img/icons/close-menu.svg" alt="icono-cerrar">
+            </ul>
+
+            <div class="nav__menu">
+                <img src="img/icons/menu.svg" alt="icono-menu">
+            </div>
+        </nav>
+
+        <section class="hero__container container">
+            <h1 class="hero__title">Hola! Soy Roger, bienvenido a mi página</h1>
+            <p class="hero__p">En este espacio te contaré más sobre mí, mis objetivos y mis habilidades dentro del mundo del desarrollo.</p>
+            <a href="#about" class="cta">Más sobre mi</a>
+        </section>
+    </header>
+
+    <main>
+        <section class="container about" id="about">
+            <h2 class="subtitle">Sobre mí</h2>
+            <p class="about__paragraph">Soy estudiante de la carrera de Ingeniería en Informática, apasionado por el mundo de la tecnología.</p>
+
+            <div class="about__main">
+                <article class="about__icons">
+                    <img src="img/icons/code.svg" class="about__icon">
+                    <h3 class="about__title">Desarrollo Web</h3>
+                    <p class="about__paragrah">Me gusta trabajar con tecnologías nuevas en el desarrollo web, actualmente estoy estudiando sobre Typescript y ReactJs.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="img/icons/design.svg" class="about__icon">
+                    <h3 class="about__title">Diseño</h3>
+                    <p class="about__paragrah">El UI/UX es una área que me llama la atención, en un futuro me gustaría aprender más para complementarlo con mis habilidades en el desarrollo  web.</p>
+                </article>
+
+                <article class="about__icons">
+                    <img src="img/icons/work.svg" class="about__icon">
+                    <h3 class="about__title">Crecer profesionalmente</h3>
+                    <p class="about__paragrah">Recién estoy comenzando en el mundo de la tecnología por lo que estoy emocionado y con ganas de adquirir experiencia profesional.</p>
+                </article>
+            </div>
+        </section>
+
+        <div class="experiencia__title" id="experiencia">
+            <h2 class="subtitle">Mi experiencia </h2>
+
+        </div>
+        <section class="experiencia">
+            <div class="experiencia__container container">
+                <img src="img/icons/leftarrow.svg" class="experiencia__arrow" id="before">
+
+                <section class="experiencia__body experiencia__body--show" data-id="1">
+                    <div class="experiencia__texts">
+                        <h2 class="subtitle">Freelance Soporte Técnico <span class="experiencia__course">Agosto 2021 - Diciembre 2022</span></h2>
+                        <p class="experiencia__review">Soporte técnico personal y remoto a cualquier tipo de negocios. <br>Mantenimiento preventivo y correctivo de equipos de cómputo.<br> Instalación y capacitación de software. <br> Redes y cableado. <br></p>
+                    </div>
+
+                    <figure class="experiencia__picture">
+                        <img src="img/soporte.png" class="experiencia__img">
+                    </figure>
+                </section>
+
+                <section class="experiencia__body" data-id="2">
+                    <div class="experiencia__texts">
+                        <h2 class="subtitle">Entrevistador telefónico | 100% Market Research <span class="experiencia__course">Enero 2021 - Junio 2021</span></h2>
+                        <p class="experiencia__review">Encuestas telefónicas. <br> Levantamiento de datos cuantitativo y cualitativos. <br> Encuestas telefónicas. <br> Llenado de reportes. <br></p>
+                    </div>
+
+                    <figure class="experiencia__picture">
+                        <img src="img/call.jpg" class="experiencia__img">
+                    </figure>
+                </section>
+
+                <img src="img/icons/rightarrow.svg" class="experiencia__arrow" id="next">
+            </div>
+        </section>
+
+        <section class="conocimientos container" id="conocimientos">
+            <h2 class="subtitle">Conocimientos</h2>
+            <p class="conocimientos__paragraph">Mis conocimientos más importantes con los que puedo apoyar en un equipo de trabajo.</p>
+
+            <section class="conocimientos__container">
+                <article class="conocimientos__padding">
+                    <div class="conocimientos__answer">
+                        <h3 class="conocimientos__title">Lenguajes de Programación
+                            <span class="conocimientos__arrow">
+                                <img src="img/icons/arrow.svg" class="conocimientos__img">
+                            </span>
+                        </h3>
+
+                        <p class="conocimientos__show">JavaScript, ReactJs, TypeScript, HTML, CSS, Bootstrap, Java</p>
+                    </div>
+                </article>
+
+                <article class="conocimientos__padding">
+                    <div class="conocimientos__answer">
+                        <h3 class="conocimientos__title">Bases de Datos
+                            <span class="conocimientos__arrow">
+                                <img src="img/icons/arrow.svg" class="conocimientos__img">
+                            </span>
+                        </h3>
+
+                        <p class="conocimientos__show">MySQL, SQL Server</p>
+                    </div>
+                </article>
+
+                <article class="conocimientos__padding">
+                    <div class="conocimientos__answer">
+                        <h3 class="conocimientos__title">Otras Herramientas
+                            <span class="conocimientos__arrow">
+                                <img src="img/icons/arrow.svg" class="conocimientos__img">
+                            </span>
+                        </h3>
+
+                        <p class="conocimientos__show">Git y GitHub, Excel, Office 365</p>
+                    </div>
+                </article>
+            </section>
+
+        </section>
+
+        <section class="escuela" id="escuela">
+            <div class="escuela__container container">
+                <div class="escuela__texts">
+                    <h2 class="subtitle">Instituto Politécnico Nacional - UPIICSA</h2>
+                    <p class="escuela__paragraph">
+                        <ul>
+                            <li>Administración de bases de datos (SQL).</li>
+                            <li>Programación Orientada a Objetos (Java).</li>
+                            <li>Redes y cableado.</li>
+                            <li>Sistemas digitales.</li>
+                            <li>Metodologías ágiles.</li>
+                        </ul>
+                    </p>
+                </div>
+
+                <figure class="escuela__picture">
+                    <img src="img/upiicsa.jpg" class="escuela__img">
+                </figure>
+            </div>
+        </section>
+        <section class="habilidades">
+            <div class="escuela__container container">
+
+                <figure class="escuela__picture">
+                    <img src="img/equipo.png" class="escuela__img">
+                </figure>
+                <div class="escuela__texts">
+                    <h2 class="subtitle">Habilidades</h2>
+                    <p class="escuela__paragraph">
+                        <ul>
+                            <li>Trabajo en equipo</li>
+                            <li>Autodidacta</li>
+                            <li>Comunicación escrita</li>
+                            <li>Resolución de problemas</li>
+                            <li>Ética de trabajo</li>
+                            <li>Iniciativa</li>
+                            <li>Capacidad de análisis</li>
+                        </ul>
+                    </p>
+                </div>
+
+                
+            </div>
+        </section>
+
+   
+
+        
+
+    </main>
+
+    <footer class="footer" id="contacto">
+        <section class="footer__container container">
+            <form class="footer__form" action="/index.html">
+                <h2 class="footer__newsletter">Contacto</h2>
+                <div class="footer__inputs">
+                    <input type="text" placeholder="Nombre:" class="footer__input" name="_replyto">
+                    <input type="text" placeholder="Apellido:" class="footer__input" name="_replyto">
+                    <input type="email" placeholder="Email:" class="footer__input" name="_replyto">
+                    <textarea class="footer__input" name="" id="" cols="30" rows="10" placeholder="Mensaje:"></textarea>
+                    <input type="submit" value="Enviar" class="footer__submit">
+                </div>
+            </form>
+        </section>
+
+        <section class="footer__copy container">
+            <div class="footer__social">
+                <a href="https://www.facebook.com/rmthirty" class="footer__icons"><img src="img/icons/fb.svg" class="footer__img"></a>
+                <a href="https://github.com/rogerxm" class="footer__icons"><img src="img/icons/github.svg" class="footer__img"></a>
+                <a href="https://www.linkedin.com/in/roger-montes-ortega-7821b4248/" class="footer__icons"><img src="img/icons/linkedin.svg" class="footer__img"></a>
+            </div>
+
+            <h3 class="footer__copyright">Roger Montes</h3>
+        </section>
+    </footer>
+
+    <script src="./js/slider.js"></script>
+    <script src="./js/conocimientos.js"></script>
+</body>
+</html>
